@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <h2>央视牛年春晚Logo发布</h2>
-   <img src="http://pics5.baidu.com/feed/9213b07eca8065384d9be26345e74343ad34820b.jpeg?token=fe753cdc861f2fc573ef2e95718c92d7&s=1ED7CA5E48104CC61E17AEA80300701E"/>
+   <img src="https://www.aliyun.com/?spm=5176.12901015.ahjq0uaqt.1.51ae525cd3WlE9"/>
   </div>
 </template>
 
