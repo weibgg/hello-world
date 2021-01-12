@@ -9,6 +9,7 @@ docker rm -f nginx &> /dev/null
 
 # 避免停止还未成功休眠5秒
 sleep 5
+echo "正在停止历史容器..."
 
 # 启动容器(次写法后此脚本只能放在/opt/apps/hello-world中执行否则找不到项目中的dist文件夹)
 docker run -d --restart=on-failure:5 -p 8080:80 -v $PWD/dist:/usr/share/nginx/html --name nginx nginx
